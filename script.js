@@ -5,7 +5,7 @@ FOODLOOP — script.js
 3) Создай цели с ID ниже.
 4) Для реальной CRM вставь URL Google Apps Script в FORM_ENDPOINT.
 */
-const YANDEX_COUNTER_ID = 0; // <- замени на ID Метрики
+const YANDEX_COUNTER_ID = 113571912; // <- замени на ID Метрики
 const FORM_ENDPOINT = "";    // <- URL Google Apps Script Web App
 
 const GOALS = {
