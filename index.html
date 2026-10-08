@@ -1,15 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FoodLoop</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="FoodLoop — вкусная еда рядом дешевле.">
+<meta name="theme-color" content="#0b0d0c">
+<title>FoodLoop — вкусная еда рядом дешевле</title>
+<link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#top" data-goal="cta_b2c"><span class="brand-mark">F</span><span>FoodLoop</span></a>
+    <nav class="desktop-nav" aria-label="Основная навигация">
+      <a href="#how">Как работает</a>
+      <a href="#offers">Примеры</a>
+      <a href="#business">Для заведений</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="button button-small" href="#join">Получать предложения</a>
+  </div>
+</header>
 
-    <h1>FoodLoop</h1>
-    <p>Вкусная еда рядом дешевле</p>
+<main id="top">
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow">Санкт-Петербург • идея / прототип</div>
+      <h1>Вкусная еда<br><span>рядом дешевле.</span></h1>
+      <p class="hero-text">FoodLoop показывает свежие блюда и продукты, которые остались у кафе, пекарен и магазинов, тем, кто хочет купить вкусно, выгодно и рядом.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#offers" data-goal="view_offers">Смотреть предложения</a>
+        <a class="button button-ghost" href="#business" data-goal="cta_b2b">Я — заведение</a>
+      </div>
+      <div class="hero-note"><span class="dot"></span>Только продукция, которую заведение ещё может безопасно реализовать.</div>
+    </div>
 
+    <div class="hero-card-wrap">
+      <div class="hero-card">
+        <div class="card-top"><span class="pill">Локальная находка</span><span class="mini">сегодня</span></div>
+        <div class="hero-food">
+          <div class="food-orb">🥐</div>
+          <div><p class="food-title">Box из пекарни</p><p class="food-sub">3 позиции • 18:30–20:00</p></div>
+        </div>
+        <div class="price-row"><div><span class="old-price">450 ₽</span><strong>299 ₽</strong></div><span class="distance">650 м</span></div>
+        <a class="fake-link" href="#join" data-goal="offer_click">Забрать предложение →</a>
+      </div>
+      <div class="floating-stat stat-one"><strong>199 ₽</strong><span>пример цены</span></div>
+      <div class="floating-stat stat-two"><strong>5–20 мин</strong><span>пешком до точки</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="trust-strip">
+  <div class="container trust-grid">
+    <div><strong>Выгодно</strong><span>цена ниже обычной</span></div>
+    <div><strong>Локально</strong><span>предложения рядом</span></div>
+    <div><strong>Полезно бизнесу</strong><span>остатки превращаются в выручку</span></div>
+  </div>
+</section>
+
+<section class="section" id="how">
+  <div class="container">
+    <div class="section-heading">
+      <div><div class="eyebrow">Как это работает</div><h2>Три шага вместо лишнего поиска</h2></div>
+      <p>Главный триггер FoodLoop — конкретная выгода: вкусно, рядом, дешевле.</p>
+    </div>
+    <div class="steps">
+      <article class="step-card"><span class="step-num">01</span><h3>Увидел</h3><p>Открой предложения рядом и выбери подходящее по цене, времени и расстоянию.</p></article>
+      <article class="step-card"><span class="step-num">02</span><h3>Забронировал</h3><p>Выбери набор и окно самовывоза. Всё в одном месте.</p></article>
+      <article class="step-card"><span class="step-num">03</span><h3>Забрал</h3><p>Забери заказ в заведении и преврати выгодную находку в привычку.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark" id="offers">
+  <div class="container">
+    <div class="section-heading dark">
+      <div><div class="eyebrow">Примеры предложений</div><h2>Что пользователь видит в ленте</h2></div>
+      <p>Демонстрационные карточки для учебного прототипа, не реальные офферы действующих заведений.</p>
+    </div>
+    <div class="offer-grid">
+      <article class="offer-card"><div class="offer-icon">☕</div><div class="offer-body"><div class="offer-line"><span>Кофейня</span><span>450 м</span></div><h3>Завтрак-бокс</h3><p>Круассан + выпечка + напиток</p><div class="offer-bottom"><strong>199 ₽</strong><span>самовывоз до 11:30</span></div></div></article>
+      <article class="offer-card"><div class="offer-icon">🥐</div><div class="offer-body"><div class="offer-line"><span>Пекарня</span><span>650 м</span></div><h3>Box из витрины</h3><p>3 случайные позиции</p><div class="offer-bottom"><strong>299 ₽</strong><span>самовывоз 18:30–20:00</span></div></div></article>
+      <article class="offer-card"><div class="offer-icon">🍱</div><div class="offer-body"><div class="offer-line"><span>Готовая еда</span><span>1,1 км</span></div><h3>Ужин-бокс</h3><p>Основное блюдо + гарнир</p><div class="offer-bottom"><strong>399 ₽</strong><span>самовывоз 20:00–21:30</span></div></div></article>
+    </div>
+    <div class="callout"><div><strong>Суть продукта</strong><span>Пользователь получает экономию, а заведение — дополнительную монетизацию остатков.</span></div><a class="button button-light" href="#join" data-goal="cta_b2c">Получать такие находки</a></div>
+  </div>
+</section>
+
+<section class="section" id="business">
+  <div class="container business-grid">
+    <div>
+      <div class="eyebrow">Для кафе, пекарен и магазинов</div>
+      <h2>Монетизируйте остатки вместо списания</h2>
+      <p class="lead">FoodLoop помогает выставлять остатки или наборы-сюрпризы, приводить новых гостей и тестировать спрос без отдельной витрины скидок.</p>
+      <div class="business-points">
+        <div><span>01</span><p>Пилотный запуск на 7 дней</p></div>
+        <div><span>02</span><p>Помощь с первой публикацией</p></div>
+        <div><span>03</span><p>Фокус на районах с высокой плотностью спроса</p></div>
+      </div>
+    </div>
+
+    <div class="form-card" id="join">
+      <div class="form-header">
+        <div class="form-switch"><button class="switch active" data-form="b2c">Покупатель</button><button class="switch" data-form="b2b">Заведение</button></div>
+        <h3 id="form-title">Получать предложения FoodLoop</h3>
+        <p id="form-subtitle">Оставь контакт — в учебном прототипе сохраняются источник и UTM.</p>
+      </div>
+      <form id="lead-form" novalidate>
+        <input type="hidden" name="lead_type" id="lead_type" value="b2c">
+        <input type="hidden" name="utm_source" id="utm_source"><input type="hidden" name="utm_medium" id="utm_medium">
+        <input type="hidden" name="utm_campaign" id="utm_campaign"><input type="hidden" name="utm_content" id="utm_content">
+        <input type="hidden" name="utm_term" id="utm_term"><input type="hidden" name="landing_url" id="landing_url">
+        <label><span id="name-label">Имя</span><input type="text" name="name" placeholder="Как к тебе обращаться" required></label>
+        <label><span id="contact-label">Telegram или телефон</span><input type="text" name="contact" placeholder="@username или +7..." required></label>
+        <label id="business-name-wrap" class="hidden"><span>Название заведения</span><input type="text" name="business_name" placeholder="Например, «Пекарня»"></label>
+        <label id="district-wrap" class="hidden"><span>Район Санкт-Петербурга</span><input type="text" name="district" placeholder="Например, Петроградский"></label>
+        <button class="button button-primary button-full" type="submit" id="submit-button">Получать предложения</button>
+        <p class="form-footnote">В демо-режиме заявки сохраняются локально в браузере. Для реального сбора подключим Google Sheets / бесплатную CRM.</p>
+        <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section section-muted" id="analytics">
+  <div class="container analytics-grid">
+    <div><div class="eyebrow">Аналитика готова</div><h2>Каждая заявка получает источник</h2><p>Лендинг сохраняет UTM первого и последнего касания и прикладывает их к заявке. Так рекламный и бесплатный трафик можно связать с CRM и заказом.</p></div>
+    <div class="analytics-card">
+      <div class="mini-row"><span>utm_source</span><strong>vk</strong></div>
+      <div class="mini-row"><span>utm_medium</span><strong>organic</strong></div>
+      <div class="mini-row"><span>utm_campaign</span><strong>launch_b2c_spb</strong></div>
+      <div class="mini-row"><span>utm_content</span><strong>clip_01</strong></div>
+      <div class="mini-row"><span>goal</span><strong>lead_b2c</strong></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="container narrow">
+    <div class="eyebrow">FAQ</div><h2>Что важно понимать про FoodLoop</h2>
+    <details><summary>FoodLoop продаёт просроченную еду?</summary><p>Нет. Концепция сервиса — реализация продукции, которую заведение ещё может безопасно продавать, но иначе она могла бы остаться непроданной.</p></details>
+    <details><summary>Почему пользователь вернётся?</summary><p>Из-за ежедневной локальной выгоды: новые находки рядом, понятные цены, короткое окно самовывоза и персональные подборки.</p></details>
+    <details><summary>Что делает бизнес?</summary><p>Публикует остатки или наборы, задаёт количество и окно выдачи и получает дополнительную выручку вместе с шансом привлечь новых гостей.</p></details>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-row"><div><strong>FoodLoop</strong><span>Вкусная еда рядом дешевле.</span></div><div class="footer-links"><a href="#how">Как работает</a><a href="#business">Для бизнеса</a><a href="#faq">FAQ</a></div></div>
+</footer>
+<script src="./script.js"></script>
 </body>
 </html>

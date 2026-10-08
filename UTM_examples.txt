@@ -1,0 +1,19 @@
+FOODLOOP — UTM-примеры
+
+VK:
+https://barnshpper-sys.github.io/foodloop/?utm_source=vk&utm_medium=organic&utm_campaign=launch_b2c_spb&utm_content=clip_01
+
+Telegram:
+https://barnshpper-sys.github.io/foodloop/?utm_source=telegram&utm_medium=messenger&utm_campaign=launch_b2c_spb&utm_content=city_channel_01
+
+QR:
+https://barnshpper-sys.github.io/foodloop/?utm_source=qr&utm_medium=offline&utm_campaign=launch_spb&utm_content=cafe_01
+
+Партнёр:
+https://barnshpper-sys.github.io/foodloop/?utm_source=partner&utm_medium=referral&utm_campaign=launch_spb&utm_content=coffee_01
+
+Учебный Директ:
+https://barnshpper-sys.github.io/foodloop/?utm_source=yandex&utm_medium=cpc&utm_campaign=launch_b2c_spb&utm_content=search_01&utm_term=еда_со_скидкой
+
+Учебный VK Ads:
+https://barnshpper-sys.github.io/foodloop/?utm_source=vk&utm_medium=cpc&utm_campaign=launch_b2c_spb&utm_content=video_01
